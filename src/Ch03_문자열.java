@@ -1,3 +1,6 @@
+import java.beans.DesignMode;
+import java.sql.SQLOutput;
+
 public class Ch03_문자열 {
     public static void main(String[] args) {
         // 숫자(int, double),문자(char), 불린(boolean) => 기초자료형
@@ -51,6 +54,29 @@ public class Ch03_문자열 {
         //숫자를 입력
         System.out.println(String.format("나는 사과를 %d개 먹었다", 12));
 
-        System.out.println(String.format("나는 사과를 %s개 먹고 토를 %s번 했다", 5, "3"));
+        System.out.println(String.format("나는 사과를 %s개 먹고 토를 %s번 했다", 5, 3));
+
+        // 문자열 포맷 코드 ( %s, %c, %d, %f)
+
+        //문자열 포맷 정렬과 공부
+
+        System.out.println(String.format("%10s", "하이"));
+        // - 공백
+        System.out.println(String.format("%-10s 패스", "하이"));
+        //소수점 표현
+        System.out.println(String.format("%.4f", 3.42138934));
+        //전체 자릿수와 소수점 자리
+        System.out.println(String.format("%10.4f", 3.1415926));
+        //printf : 문자열 포맷을 포함한 출력 형식
+        //print 는 출력 메소드, println 은 한줄을 출력함
+
+        System.out.print("출력");
+        System.out.print("출력");
+        System.out.println("한줄출력");
+        System.out.println("한줄출력");
+
+        // String.format 메소드를 포함한다
+        System.out.printf("나는 오늘 아침에 삼각김밥 %d개를 먹었다.",1);
+        System.out.printf("메서드");
     }
 }
