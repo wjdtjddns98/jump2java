@@ -12,8 +12,6 @@ public class Ex13 {
 
 
         System.out.printf("%.2f초 후 위치 : %.2fm\n", t, x);
-    int n = 5;
-        System.out.println(Math.pow(n, 3));
 
     }
 }

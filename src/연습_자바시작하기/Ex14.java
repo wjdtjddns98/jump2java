@@ -3,7 +3,7 @@ package 연습_자바시작하기;
 public class Ex14 {
     public static void main(String[] args) {
         //가격
-        int price = 1089250;
+        int price = 1889250;
         //장 수 계산
         int a = price/50000;
         int b = (price%50000)/10000;
