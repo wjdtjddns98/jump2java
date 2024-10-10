@@ -1,3 +1,5 @@
+package ch02_03;
+
 public class Ch03_StringBuffer {
     public static void main(String[] args) {
         //스트링버퍼는 문자열을 추가하거나 변경 할 때 사용하는 자료형

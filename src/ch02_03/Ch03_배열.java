@@ -1,3 +1,5 @@
+package ch02_03;
+
 public class Ch03_배열 {
     public static void main(String[] args) {
         //자료형의 집합을 의미

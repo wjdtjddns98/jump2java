@@ -1,3 +1,5 @@
+package ch02_03;
+
 public class ch02_2_변수와_자료형 {
     public static void main(String[] args) {
         int a; //변수의 선언 : 정수형 변수 a를 만듬

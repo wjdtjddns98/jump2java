@@ -1,5 +1,4 @@
-import java.beans.DesignMode;
-import java.sql.SQLOutput;
+package ch02_03;
 
 public class Ch03_문자열 {
     public static void main(String[] args) {

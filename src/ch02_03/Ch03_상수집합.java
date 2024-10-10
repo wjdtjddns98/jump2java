@@ -1,3 +1,5 @@
+package ch02_03;
+
 public class Ch03_상수집합 {
 
     enum CoffeType {

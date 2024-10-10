@@ -1,3 +1,5 @@
+package ch02_03;
+
 public class Ch03_불린 {
     public static void main(String[] args) {
         //불(boolean) : 참 또는 거짓 자료형

@@ -1,3 +1,5 @@
+package ch02_03;
+
 import java.util.HashMap;
 public class Ch03_맵 {
     public static void main(String[] args) {

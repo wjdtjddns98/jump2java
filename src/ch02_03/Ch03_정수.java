@@ -1,3 +1,5 @@
+package ch02_03;
+
 public class Ch03_정수 {
     public static void main(String[] args) {
         //정수타입(정수 자료형)
